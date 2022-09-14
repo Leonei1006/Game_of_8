@@ -22,13 +22,13 @@ Exemplo de estado inicial ou embaralhado:<br>
 
 ### Sobre os arquivos:
 
-A classe do jogo é a #Application.java  e a de execução é a #NumberPuzzle.java.
+A classe do jogo é a Application.java  e a de execução é a NumberPuzzle.java.
 
 Ao instanciar um jogo, pode-se escolher a quantidade de linhas e colunas, tornando-se um jogo dos 15 por exemplo ao ser instanciado desda forma:
 
-```Java
+
 NumberPuzzle Puzzle = new NumberPuzzle(4)
-```
+
 
 ### Testes unitários
 
