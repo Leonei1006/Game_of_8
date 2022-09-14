@@ -1,6 +1,6 @@
 # Jogo-dos-oito-java
 
-Implementação do famoso jogo dos oito utilizando [Java](https://github.com/topics/java), [Maven](https://github.com/topics/maven) e testes unitários com [Junit](https://junit.org/junit4/).
+Implementação do famoso jogo dos oito utilizando Java, Maven e testes unitários com Junit.
 
 ---
 
@@ -22,7 +22,7 @@ Exemplo de estado inicial ou embaralhado:<br>
 
 ### Sobre os arquivos:
 
-A classe do jogo é a [Application.java] e a de execução é a [NumberPuzzle.java].
+A classe do jogo é a #Application.java  e a de execução é a #NumberPuzzle.java.
 
 Ao instanciar um jogo, pode-se escolher a quantidade de linhas e colunas, tornando-se um jogo dos 15 por exemplo ao ser instanciado desda forma:
 
@@ -34,28 +34,24 @@ NumberPuzzle Puzzle = new NumberPuzzle(4)
 
 Os testes unitários foram divididos nos arquivos:
 
-1 - [NumberPuzzleCheckResolutionTest.java](src/test/java/io/github/leonei/NumberPuzzleCheckResolutionTest.java): Testa se uma determinada disposição das peças resolve o desafio ou não;<br>
-2 - [NumberPuzzleMovementsCountTest.java](src/test/java/io/github/leonei/NumberPuzzleMovementsCountTest.java): Testa a contagem de movimentos feito em uma partida;<br>
-3 - [NumberPuzzleMovementsTest.java](src/test/java/io/github/leonei/NumberPuzzleMovementsTest.java): Testa alguns movimentos no jogo são válidos ou não;<br>
-4 - [NumberPuzzlePositionsTest.java](src/test/java/io/github/leonei/NumberPuzzlePositionsTest.java): Testa se um número está numa posição esperada ou não.<br>
+1 - NumberPuzzleCheckResolutionTest.java: Testa se uma determinada disposição das peças resolve o desafio ou não;<br>
+2 - NumberPuzzleMovementsCountTest.java: Testa a contagem de movimentos feito em uma partida;<br>
+3 - NumberPuzzleMovementsTest.java: Testa alguns movimentos no jogo são válidos ou não;<br>
+4 - NumberPuzzlePositionsTest.java: Testa se um número está numa posição esperada ou não.<br>
 
 ### Executando a aplicação:
 
 1 - Para compilar o projeto e gerar o arquivo .jar executável:
 
-```Maven
 mvn clean install
-```
+
 
 2 - Para executar os testes unitários:
 
-```Maven
 mvn clean test
-```
+
 
 3 - Para executar o projeto:
 
-```Bash
 java -jar target/game-of-8-1.0-SNAPSHOT.jar
-```
 
