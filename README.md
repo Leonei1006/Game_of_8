@@ -56,6 +56,6 @@ mvn clean test
 3 - Para executar o projeto:
 
 ```Bash
-java -jar target/JogoDeOito-1.0-SNAPSHOT.jar
+java -jar target/game-of-8-1.0-SNAPSHOT.jar
 ```
 
