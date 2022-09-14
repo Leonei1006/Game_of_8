@@ -1,4 +1,4 @@
-# Jogo-dos-oito-java
+# Jogo-dos-oito
 
 Implementação do famoso jogo dos oito utilizando Java, Maven e testes unitários com Junit.
 
